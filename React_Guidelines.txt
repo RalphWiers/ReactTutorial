@@ -1,0 +1,9 @@
+Create react app:
+- Create folder
+- npx create-react-app "name" (req. nodejs)
+- (add node-modules) npm install
+
+Show webpage:
+- terminal
+- npm run start
+

@@ -1,0 +1,30 @@
+Grab package / initialize repo on pc:
+- Connect https: git clone HTTP-url
+//
+- Connect SSH (key-identifier per pc):
+	- ssh-keygen -t ed25519 -C "github-mail"
+	- public key stored in /home/x/x/x/x, open with cd >>
+	- copy key in Github
+- Create folder
+- git init = Innitialize folder
+- git clone SSH-URL
+
+Update-Grabbed package:
+git fetch X / --all --> grabs any commit from target branc and puts in local repo
+git merge --> Merges fetched files
+//
+git pull REMOTE-NAME BRANCH-NAME = merge & fetch
+
+Update package:
+- (If no clone) git remote add origin SSH-URL
+- git status = shows status of files
+- git add FILENAME(S) = readies files for commit
+- git commit -m "message" = commits files w/ message
+- git push origin branch-name = push commits
+
+Workflow:
+- git log --all = shows latest commit details
+- git branch "Branch-Name" = create branch
+- git branch -D "Branch-Name" = delete branch
+- git checkout "Branch-Name" = navigate existing branch, add files, commit files
+- git checkout "Branch-Name" = new branch, add files, commit files
